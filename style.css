@@ -1,0 +1,53 @@
+#main{
+    text-align: center;
+    padding: 15vw;
+    padding-right: 15vw;
+    gap: 20px;
+}
+
+.container{
+    padding: 15px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-divider{
+    width: 100%;
+}
+
+.flex-center{
+
+}
+
+#editor{
+    border: 1px solid black;
+    width: 100%;
+    height: 95%;
+}
+
+#input:focus{
+
+}
+
+#notes{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#notes-header{
+    gap: 10px;
+}
+
+#notes >li{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
